@@ -129,7 +129,7 @@ a:link, a:visited {
     /* width: 100%; */
     margin: 0 auto;
     justify-content: center;
-    display: block;
+    display: flex;
     margin-left: auto;
    margin-right: auto;
     
@@ -305,7 +305,21 @@ html {
         mobile device
 ----------------------------- */
 @media only screen and (max-width:688px) {
-  
+   .container{
+    width: 100%;
+   }
+  .first-part{
+    background-color: saddlebrown;
+    grid-template-columns: repeat(1, fr);
+    flex-direction: column;
+    display: block;
+  }
+  .heade-part, .image-container, .about-section {
+    background-color: rgb(25, 185, 73);
+    grid-template-columns: repeat(1, fr);
+    flex-direction: column;
+    display: block;
+  }
 
 }
 
@@ -325,7 +339,21 @@ html {
 /* tablet devices */
 
 @media only screen and (min-width: 688px) and (max-width:992px) {
-  
+  .container{
+    width: 100%;
+   }
+  .first-part{
+    /* background-color: rgb(19, 47, 139); */
+    grid-template-columns: repeat(2, fr);
+    /* flex-direction: column; */
+    display: block;
+  }
+  .heade-part, .image-container, .about-section {
+    /* background-color: rgb(148, 15, 121); */
+    grid-template-columns: repeat(2, fr);
+    
+  }
+
 }
 
 
