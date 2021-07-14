@@ -308,6 +308,20 @@ html {
   
 
 }
+
+/* ------------------------
+         form responsive media Query 
+        ---------------------------- */
+
+        @media screen and (max-width: 688px) {
+          .column {
+            width: 100%;
+            display: block;
+          }
+        }
+
+
+
 /* tablet devices */
 
 @media only screen and (min-width: 688px) and (max-width:992px) {
@@ -324,18 +338,7 @@ html {
 
 
 
-
-
-
-
-
-
-
-/* ------------------------
-         form responsive media Query 
-        ---------------------------- */
-
-   @media screen and (max-width: 650px) {
+  @media only screen and (min-width: 688px) and (max-width:992px) {
     .column {
       width: 100%;
       display: block;
