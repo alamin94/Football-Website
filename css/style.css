@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 /*google  font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
@@ -179,7 +184,9 @@ h2, p {
 /* ===================
           about part css start here 
 ============================================= */
-
+.our-team{
+  margin-top: 40px;
+}
 html {
     box-sizing: border-box;
   }
@@ -343,7 +350,7 @@ html {
     width: 100%;
    }
   .first-part{
-    /* background-color: rgb(19, 47, 139); */
+    background-color: rgb(19, 47, 139);
     grid-template-columns: repeat(2, fr);
     /* flex-direction: column; */
     display: block;
