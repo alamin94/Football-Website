@@ -211,6 +211,7 @@ html {
   
   .container {
     padding: 0 16px;
+    /* width: 886px; */
   }
   
   .container::after, .row::after {
@@ -307,36 +308,13 @@ html {
         mobile device
 ----------------------------- */
 @media only screen and (max-width:688px) {
-  .container{
-      width: 100%;
-  }
-  .top-players, .blogs, .courses{
-      /* background-color: #fd500c; */
-      grid-template-columns: repeat(1, 1fr);
-  }
-  .player, .blog{
-      flex-direction: column;
-  }
-
-  .courses{
-      /* display: none; */
-  }
+  
 
 }
 /* tablet devices */
 
 @media only screen and (min-width: 688px) and (max-width:992px) {
-  .container{
-      width: 100%;
-  }
-  .top-players, .courses{
-      /* background-color: aqua; */
-      grid-template-columns: repeat(2, 1fr);
-  }
-  .blogs{
-      /* background-color: aqua; */
-      grid-template-columns: repeat(1, 1fr);
-  }
+  
 }
 
 
